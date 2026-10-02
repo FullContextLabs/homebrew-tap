@@ -2,8 +2,7 @@ cask "altero" do
   version "0.1.3"
   sha256 "0b86508a4396f187017acb4ba5cead2429879e008117407853059ce2b0406d03"
 
-  url "https://github.com/FullContextLabs/Altero/releases/download/v#{version}/Altero-#{version}.dmg",
-      verified: "github.com/FullContextLabs/Altero/"
+  url "https://github.com/FullContextLabs/Altero/releases/download/v#{version}/Altero-#{version}.dmg"
   name "Altero"
   desc "Claude Code account switcher with menu bar app, widget and CLI"
   homepage "https://github.com/FullContextLabs/Altero"
